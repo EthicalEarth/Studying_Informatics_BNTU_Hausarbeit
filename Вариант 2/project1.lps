@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="10"/>
+    <BuildModes Active="Default"/>
+    <Units Count="2">
+      <Unit0>
+        <Filename Value="project1.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="1"/>
+        <UsageCount Value="29"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="graph.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Graph"/>
+        <IsVisibleTab Value="True"/>
+        <CursorPos X="33" Y="9"/>
+        <UsageCount Value="29"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="graph.pas"/>
+        <Caret Line="93" Column="7" TopLine="74"/>
+      </Position1>
+      <Position2>
+        <Filename Value="graph.pas"/>
+        <Caret Line="99" Column="12" TopLine="72"/>
+      </Position2>
+      <Position3>
+        <Filename Value="graph.pas"/>
+        <Caret Line="165" Column="64" TopLine="146"/>
+      </Position3>
+      <Position4>
+        <Filename Value="graph.pas"/>
+        <Caret Line="166" Column="63" TopLine="148"/>
+      </Position4>
+      <Position5>
+        <Filename Value="graph.pas"/>
+        <Caret Line="52" Column="24" TopLine="38"/>
+      </Position5>
+      <Position6>
+        <Filename Value="graph.pas"/>
+        <Caret Line="173" TopLine="140"/>
+      </Position6>
+      <Position7>
+        <Filename Value="graph.pas"/>
+        <Caret Line="98" Column="7" TopLine="86"/>
+      </Position7>
+      <Position8>
+        <Filename Value="graph.pas"/>
+        <Caret Line="104" Column="13" TopLine="92"/>
+      </Position8>
+      <Position9>
+        <Filename Value="graph.pas"/>
+        <Caret Line="102" Column="15" TopLine="83"/>
+      </Position9>
+      <Position10>
+        <Filename Value="graph.pas"/>
+        <Caret Line="126" Column="70" TopLine="97"/>
+      </Position10>
+      <Position11>
+        <Filename Value="graph.pas"/>
+        <Caret Line="160"/>
+      </Position11>
+      <Position12>
+        <Filename Value="graph.pas"/>
+        <Caret Line="162" Column="96" TopLine="139"/>
+      </Position12>
+      <Position13>
+        <Filename Value="graph.pas"/>
+        <Caret Line="163" Column="96" TopLine="140"/>
+      </Position13>
+      <Position14>
+        <Filename Value="graph.pas"/>
+        <Caret Line="164" Column="96" TopLine="141"/>
+      </Position14>
+      <Position15>
+        <Filename Value="graph.pas"/>
+        <Caret Line="163" Column="96" TopLine="140"/>
+      </Position15>
+      <Position16>
+        <Filename Value="graph.pas"/>
+        <Caret Line="164" Column="96" TopLine="141"/>
+      </Position16>
+      <Position17>
+        <Filename Value="graph.pas"/>
+        <Caret Line="115" Column="16" TopLine="85"/>
+      </Position17>
+      <Position18>
+        <Filename Value="graph.pas"/>
+        <Caret Line="57" Column="22" TopLine="47"/>
+      </Position18>
+      <Position19>
+        <Filename Value="graph.pas"/>
+        <Caret Line="179" Column="12" TopLine="153"/>
+      </Position19>
+      <Position20>
+        <Filename Value="graph.pas"/>
+        <Caret Line="180" Column="12" TopLine="154"/>
+      </Position20>
+      <Position21>
+        <Filename Value="graph.pas"/>
+        <Caret Line="63" Column="18" TopLine="34"/>
+      </Position21>
+      <Position22>
+        <Filename Value="graph.pas"/>
+        <Caret Line="182" Column="41" TopLine="155"/>
+      </Position22>
+      <Position23>
+        <Filename Value="graph.pas"/>
+        <Caret Line="184" Column="25" TopLine="156"/>
+      </Position23>
+      <Position24>
+        <Filename Value="graph.pas"/>
+        <Caret Line="183" Column="28" TopLine="157"/>
+      </Position24>
+      <Position25>
+        <Filename Value="graph.pas"/>
+        <Caret Line="184" Column="25" TopLine="157"/>
+      </Position25>
+      <Position26>
+        <Filename Value="graph.pas"/>
+        <Caret Line="63" Column="15" TopLine="43"/>
+      </Position26>
+      <Position27>
+        <Filename Value="graph.pas"/>
+        <Caret Line="184" Column="25" TopLine="157"/>
+      </Position27>
+      <Position28>
+        <Filename Value="graph.pas"/>
+        <Caret Line="63" Column="24" TopLine="34"/>
+      </Position28>
+      <Position29>
+        <Filename Value="graph.pas"/>
+        <Caret Line="91" Column="35" TopLine="74"/>
+      </Position29>
+      <Position30>
+        <Filename Value="graph.pas"/>
+        <Caret Line="9" Column="33"/>
+      </Position30>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

@@ -1,0 +1,126 @@
+object Form1: TForm1
+  Left = 362
+  Height = 457
+  Top = 278
+  Width = 907
+  BorderStyle = bsSingle
+  Caption = 'Graph'
+  ClientHeight = 457
+  ClientWidth = 907
+  LCLVersion = '1.8.4.0'
+  object Button1: TButton
+    Left = 295
+    Height = 36
+    Top = 400
+    Width = 240
+    Caption = 'Просчитать значения'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object Chart1: TChart
+    Left = 5
+    Height = 360
+    Top = 0
+    Width = 600
+    AxisList = <    
+      item
+        Marks.LabelBrush.Style = bsClear
+        Marks.Range.Max = 50
+        Marks.Range.Min = -50
+        Marks.Range.UseMax = True
+        Marks.Range.UseMin = True
+        Minors = <>
+        Title.LabelFont.Orientation = 900
+        Title.LabelBrush.Style = bsClear
+      end    
+      item
+        Intervals.MaxLength = 100
+        Intervals.Options = [aipUseCount, aipUseMaxLength, aipUseMinLength, aipUseNiceSteps]
+        Alignment = calBottom
+        Marks.LabelBrush.Style = bsClear
+        Marks.Range.Max = 2
+        Marks.Range.Min = -2
+        Marks.Range.UseMax = True
+        Marks.Range.UseMin = True
+        Minors = <>
+        Title.LabelBrush.Style = bsClear
+      end>
+    Foot.Brush.Color = clBtnFace
+    Foot.Font.Color = clBlue
+    Title.Brush.Color = clBtnFace
+    Title.Font.Color = clBlue
+    Title.Text.Strings = (
+      'TAChart'
+    )
+    object Chart1LineSeries1: TLineSeries
+      LinePen.Color = 9121131
+      LinePen.Width = 4
+      Pointer.Style = psDiamond
+      ShowPoints = True
+    end
+  end
+  object Edit1: TEdit
+    Left = 48
+    Height = 21
+    Top = 400
+    Width = 224
+    TabOrder = 2
+    Text = '2'
+  end
+  object Label1: TLabel
+    Left = 295
+    Height = 13
+    Top = 365
+    Width = 104
+    Caption = 'Среднее значение ='
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 475
+    Height = 13
+    Top = 365
+    Width = 18
+    Caption = '      '
+    ParentColor = False
+  end
+  object Label3: TLabel
+    Left = 48
+    Height = 13
+    Top = 365
+    Width = 137
+    Caption = 'Введите параметр m ниже:'
+    ParentColor = False
+  end
+  object Memo1: TMemo
+    Left = 605
+    Height = 360
+    Top = 0
+    Width = 300
+    Font.Height = -18
+    Font.Name = 'Monospace'
+    Lines.Strings = (
+      'Здраствуйте, пользователь. '
+      'Эта программа предназначена для вычисления сложной функции.'
+      'Для того, что бы вычислить ее, введите параметр m в строку ввода и нажмите кнопку "Просчитать значения".'
+      'Автоматически будет построен график, значения х и у будут выведены в этом поле. '
+      'Приятной Вам работы.'
+    )
+    ParentFont = False
+    ReadOnly = True
+    ScrollBars = ssVertical
+    TabOrder = 3
+  end
+  object Button2: TButton
+    Left = 615
+    Height = 36
+    Top = 400
+    Width = 265
+    Caption = 'Сохранить результаты в файл'
+    OnClick = Button2Click
+    TabOrder = 4
+  end
+  object SaveDialog1: TSaveDialog
+    left = 555
+    top = 365
+  end
+end
